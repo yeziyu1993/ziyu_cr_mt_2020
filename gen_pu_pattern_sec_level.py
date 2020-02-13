@@ -7,8 +7,18 @@
 ###############################################################################
 
 import numpy as np
+from Params import Params
 
 def gen_pu_pattern(**kwarg):
   
-  # parsing arguements
-  #
+  # parameter
+  params = Params(
+   # parameters for the idle period distribution (generalized Pareto)
+   loc_idle = ,     # location
+   scale_idle = ,   # scale
+   shape_idle = ,   # shape
+   # parameters for the idle period distribution (generalized Pareto)    
+   loc_busy = ,     # location
+   scale_busy = ,   # scale
+   shape_busy = ,   # shape
+  )
