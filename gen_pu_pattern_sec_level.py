@@ -5,3 +5,10 @@
 #   by Miguel López-Benítez and Fernando Casadevall
 #   Available at: https://www.researchgate.net/publication/224259687_Modeling_and_Simulation_of_Time-Correlation_Properties_of_Spectrum_Use_in_Cognitive_Radio
 ###############################################################################
+
+import numpy as np
+
+def gen_pu_pattern(**kwarg):
+  
+  # parsing arguements
+  #
